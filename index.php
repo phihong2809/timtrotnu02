@@ -75,7 +75,7 @@ if (isset($_GET['task'])) {
     $cs = new ControllersPhong();
     $cs->viewPhong2();
 }
-
+header( 'Location: /views/Home.php' ); 
 
 
 ?>
