@@ -1,4 +1,7 @@
 <?php
+header( 'Location: /views/Home.php' );
+?>
+<?php
 require_once "controllers/ControllersPhong.php";
 require_once "controllers/ControllerUser.php";
 if (isset($_GET['task'])) {
@@ -75,7 +78,7 @@ if (isset($_GET['task'])) {
     $cs = new ControllersPhong();
     $cs->viewPhong2();
 }
-header( 'Location: /views/Home.php' ); 
+ 
 
 
 ?>
