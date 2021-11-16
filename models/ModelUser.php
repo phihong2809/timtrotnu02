@@ -4,10 +4,10 @@
         var $con;
 	public function __construct(){
 		// ket noi co so du lieu
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
-		$dbname = "xdhttt";
+		$servername = "mysql5037.site4now.net";
+		$username = "a7c861_xdhttt";
+		$password = "hongy2809";
+		$dbname = "db_a7c861_xdhttt";
 
 		
         $this->con = new mysqli($servername, $username, $password, $dbname);
