@@ -1,5 +1,5 @@
 <?php
-header( 'Location: /views/Home.php' );
+header( 'Location: /views/Home.html' );
 ?>
 <?php
 require_once "controllers/ControllersPhong.php";
