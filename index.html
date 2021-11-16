@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
 require_once "controllers/ControllersPhong.php";
 require_once "controllers/ControllerUser.php";
 if (isset($_GET['task'])) {
@@ -77,8 +84,10 @@ if (isset($_GET['task'])) {
     $cs = new ControllersPhong();
     $cs->viewPhong2();
 }
- 
+
 
 
 ?>
+
+</body>
 </html>
